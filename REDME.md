@@ -1,0 +1,1 @@
+Calculadora simples criada para estudos de HTML, CSS e JAVASCRIPT;
