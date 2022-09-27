@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+main{
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    width: 375px;
+    height: 812px;
+    margin: auto;
+    border-radius: 39px;
+}
+
+.resultadoArea{
+    width: 308px;
+    height: 330px;
+    margin: auto;
+}
+
+section{
+    width: 308px;
+    height: 450px;
+    margin: auto;
+    
+}
+
+button{
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+section .buttonArea{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+   
+}
+
+section .buttonArea button {
+    width: 62px;
+    height: 62px;
+    color: #29A8FF;
+    background-color: #303136;
+    margin-right: 20px;
+}
+
+section .buttonArea button:nth-child(4),
+section .buttonArea button:nth-child(8),
+section .buttonArea button:nth-child(12), 
+section .buttonArea button:nth-child(16),
+section .buttonArea button:nth-child(18){
+    margin-right: 0;
+}
+
+section .buttonArea button:first-child, section .buttonArea button:nth-child(2){
+    background-color: #616161;
+}
+
+.buttonArea button:nth-child(3){
+    background-color: #005DB2;
+}
+
+.buttonArea button:nth-child(17){
+    width: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
