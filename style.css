@@ -11,23 +11,34 @@
     line-height: 48px;
 }
 
+html
+{
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+
 main{
     background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
     width: 375px;
-    height: 812px;
+    height: 100vh;
     margin: auto;
-    border-radius: 39px;
 }
 
 .resultadoArea{
     width: 308px;
-    height: 330px;
-    margin: auto;
+    height: 220px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 48px;
+    color: #FFFFFF;
 }
+
 
 section{
     width: 308px;
-    height: 450px;
+    height: 400px;
     margin: auto;
     
 }
@@ -37,42 +48,68 @@ button{
     cursor: pointer;
 }
 
-section .buttonArea{
-    margin: auto;
-    height: 100%;
+/* Botões númericos lado esquerdo */
+
+section .buttonArea1{
+    width: 226px;
     display: flex;
     flex-wrap: wrap;   
     align-items: center;
+    float: left;
    
 }
 
-section .buttonArea button {
+section .buttonArea1 button {
     width: 62px;
     height: 62px;
     color: #29A8FF;
     background-color: #303136;
-    margin-right: 20px;
+    margin-right: 13px;
+    margin-bottom: 22px;
 }
 
-section .buttonArea button:nth-child(4),
-section .buttonArea button:nth-child(8),
-section .buttonArea button:nth-child(12), 
-section .buttonArea button:nth-child(16),
-section .buttonArea button:nth-child(18){
-    margin-right: 0;
+section .buttonArea1 button:nth-child(4),
+section .buttonArea1 button:nth-child(5),
+section .buttonArea1 button:nth-child(6),
+section .buttonArea1 button:nth-child(7),
+section .buttonArea1 button:nth-child(8),
+section .buttonArea1 button:nth-child(9),
+section .buttonArea1 button:nth-child(10),
+section .buttonArea1 button:nth-child(11),
+section .buttonArea1 button:nth-child(12){
+    margin-bottom: 16px;
 }
 
-section .buttonArea button:first-child, section .buttonArea button:nth-child(2){
-    background-color: #616161;
+section .buttonArea1 button:nth-child(13){
+    width: 138px;
 }
 
-.buttonArea button:nth-child(3){
-    background-color: #005DB2;
+
+/* Operadores matemáticos lateral direita */
+
+.buttonArea2{
+    display: grid;
+    width: 62px;
 }
 
-.buttonArea button:nth-child(17){
-    width: 46%;
+.buttonArea2 button{
+    width: 62px;
+    height: 62px;
+    margin-bottom: 25px;
+    background-color: #303136;
+    color: #29A8FF;
 }
+
+.buttonArea2 button:nth-child(3),
+.buttonArea2 button:last-child{
+    height: 90px;
+}
+
+
+
+
+
+
 
 
 
